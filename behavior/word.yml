@@ -23,3 +23,7 @@ word: &word
   - "%answerFilename.jpg"
 manycharacters: *word
 
+################################### EMOJIS ###################################
+
+":woman_gesturing_OK:":
+  - ":woman_gesturing_OK:"
