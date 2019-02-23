@@ -20,7 +20,7 @@
 
 word: &word
   - This is an answer!
-  - "%answerFilename.jpg"
+  - "%answers.png"
 manycharacters: *word
 
 ################################### EMOJIS ###################################

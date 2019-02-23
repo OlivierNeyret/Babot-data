@@ -14,13 +14,16 @@
 # along with this program.  If not, see <http://www.gnu.org/licenses/>.
 
 # List every recipient for particular event
-
-
+# Warning: no '%' before attachment!
+# Registered_recipient, answers and attachment can't be empty, use at least an empty string: - ""
 
 hello:
   - registered_recipient: # List recipients which registered to this event
     - +33601020304 # Classic phone number
     - [0x00,0x01, 0x02,0x03, 0x04,0x05, 0x06,0x07, 0x08,0x09, 0x0A,0x0B, 0x0C,0x0D, 0x0E,0x0F] # Group ID
+  - answers: # Messages to send, one is picked randomly each time
+    - "Hello world!" 
+  - attachment: # Zero or one file in ressources/events folder
+    - "events.png"
   - "08:00:00" # Time when event is triggered
-  - "Hello world!" # Message to send, must be '%filename' to send filename as an attachment
 
