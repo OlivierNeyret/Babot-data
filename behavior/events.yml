@@ -25,5 +25,5 @@ hello:
     - "Hello world!" 
   - attachment: # File in ressources/events folder, one is picked randomly each time
     - "events.png"
-  - "08:00:00" # Time when event is triggered
-
+  - when: # Time when event is triggered, you can add multiple times
+    - "08:00:00"
