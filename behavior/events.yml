@@ -23,7 +23,7 @@ hello:
     - [0x00,0x01, 0x02,0x03, 0x04,0x05, 0x06,0x07, 0x08,0x09, 0x0A,0x0B, 0x0C,0x0D, 0x0E,0x0F] # Group ID
   - answers: # Messages to send, one is picked randomly each time
     - "Hello world!" 
-  - attachment: # Zero or one file in ressources/events folder
+  - attachment: # File in ressources/events folder, one is picked randomly each time
     - "events.png"
   - "08:00:00" # Time when event is triggered
 
