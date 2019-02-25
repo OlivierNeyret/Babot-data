@@ -15,7 +15,8 @@
 
 # List every recipient for particular event
 # Warning: no '%' before attachment!
-# Registered_recipient, answers and attachment can't be empty, use at least an empty string: - ""
+# Answers can't be empty, use at least an empty string: - ""
+# Attachment can be empty but must exist
 
 hello:
   - registered_recipient: # List recipients which registered to this event
